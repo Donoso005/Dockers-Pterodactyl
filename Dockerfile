@@ -13,4 +13,4 @@ ENV         USER=container HOME=/home/container
 WORKDIR     /home/container
 
 COPY        ./routes.sh /routes.sh
-CMD ["/bin/bash", "/entrypoint.sh"]
+CMD ["/bin/bash", "/routes.sh"]
